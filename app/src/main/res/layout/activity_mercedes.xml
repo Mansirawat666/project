@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:weightSum="8"
+    android:layout_height="match_parent"
+    tools:context=".mercedes">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/one"
+            android:layout_marginTop="250dp"
+            android:layout_weight="2"></ImageView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/two"
+            android:layout_marginTop="100dp"
+            android:layout_weight="2"></ImageView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/four"
+                android:layout_weight="2"
+                android:layout_marginTop="100dp"
+                ></ImageView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/three"
+                android:layout_marginTop="100dp"
+                android:layout_marginBottom="0dp"
+                android:layout_weight="2"></ImageView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
